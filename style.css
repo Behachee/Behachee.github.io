@@ -1,0 +1,221 @@
+element.style {
+overscroll-behavior-x: auto;
+}
+.bg-gray-100 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+}
+body {
+    font-family: "Raleway", "Roboto", Arial, Helvetica, sans-serif;
+    overflow-y: hidden;
+}
+body {
+    --tw-text-opacity: 1;
+    color: rgba(31, 41, 55, var(--tw-text-opacity));
+}
+html, body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+body {
+    font-family: inherit;
+    line-height: inherit;
+}
+body {
+    font-family: system-ui, -apple-system, /* Firefox supports this but not yet `system-ui` */ 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+body {
+    margin: 0;
+}
+*, ::before, ::after {
+    --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+}
+*, ::before, ::after {
+    --tw-shadow: 0 0 #0000;
+}
+*, ::before, ::after {
+    --tw-border-opacity: 1;
+    border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: currentColor;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+:root {
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+}
+:root {
+    --timeline-top: 30%;
+}
+injected stylesheet
+:root {
+    --lt-color-gray-100: #f8f9fc;
+    --lt-color-gray-200: #f1f3f9;
+    --lt-color-gray-300: #dee3ed;
+    --lt-color-gray-400: #c2c9d6;
+    --lt-color-gray-500: #8f96a3;
+    --lt-color-gray-600: #5e636e;
+    --lt-color-gray-700: #2f3237;
+    --lt-color-gray-800: #1d1e20;
+    --lt-color-gray-900: #111213;
+    --lt-shadowDefault: 0 2px 6px -1px rgba(0, 0, 0, 0.16), 0 1px 4px -1px rgba(0, 0, 0, 0.04);
+    --lt-shadowActive: 0 0 8px -2px rgba(0, 0, 0, 0.1), 0 6px 20px -3px rgba(0, 0, 0, 0.2);
+    --lt-color-white: #fff !important;
+    --lt-color-black: #111213 !important;
+    --lt-color-transparent: rgba(255, 255, 255, 0) !important;
+    --lt-color-background-light: var(--lt-color-gray-100) !important;
+    --lt-color-background-default: var(--lt-color-gray-200) !important;
+    --lt-color-background-dark: var(--lt-color-gray-300) !important;
+    --lt-color-border-light: var(--lt-color-gray-200) !important;
+    --lt-color-border-default: var(--lt-color-gray-300) !important;
+    --lt-color-border-dark: var(--lt-color-gray-400) !important;
+    --lt-color-text-very-light: var(--lt-color-gray-500) !important;
+    --lt-color-text-light: var(--lt-color-gray-600) !important;
+    --lt-color-text-default: var(--lt-color-gray-700) !important;
+    --lt-color-text-dark: var(--lt-color-gray-800) !important;
+    --lt-color-overlay-default: #fff !important;
+    --lt-color-overlay-dark: #fff !important;
+    --lt-color-overlay-transparent: rgba(0, 0, 0, 0.1) !important;
+    --lt-shadow-website-overlay: 0 0 7px 0 rgba(0, 0, 0, 0.3) !important;
+}
+injected stylesheet
+:root {
+    --lt-color-gray-100: #f8f9fc;
+    --lt-color-gray-200: #f1f3f9;
+    --lt-color-gray-300: #dee3ed;
+    --lt-color-gray-400: #c2c9d6;
+    --lt-color-gray-500: #8f96a3;
+    --lt-color-gray-600: #5e636e;
+    --lt-color-gray-700: #2f3237;
+    --lt-color-gray-800: #1d1e20;
+    --lt-color-gray-900: #111213;
+    --lt-shadowDefault: 0 2px 6px -1px rgba(0, 0, 0, 0.16), 0 1px 4px -1px rgba(0, 0, 0, 0.04);
+    --lt-shadowActive: 0 0 8px -2px rgba(0, 0, 0, 0.1), 0 6px 20px -3px rgba(0, 0, 0, 0.2);
+    --lt-color-white: #fff !important;
+    --lt-color-black: #111213 !important;
+    --lt-color-transparent: rgba(255, 255, 255, 0) !important;
+    --lt-color-background-light: var(--lt-color-gray-100) !important;
+    --lt-color-background-default: var(--lt-color-gray-200) !important;
+    --lt-color-background-dark: var(--lt-color-gray-300) !important;
+    --lt-color-border-light: var(--lt-color-gray-200) !important;
+    --lt-color-border-default: var(--lt-color-gray-300) !important;
+    --lt-color-border-dark: var(--lt-color-gray-400) !important;
+    --lt-color-text-very-light: var(--lt-color-gray-500) !important;
+    --lt-color-text-light: var(--lt-color-gray-600) !important;
+    --lt-color-text-default: var(--lt-color-gray-700) !important;
+    --lt-color-text-dark: var(--lt-color-gray-800) !important;
+    --lt-color-overlay-default: #fff !important;
+    --lt-color-overlay-dark: #fff !important;
+    --lt-color-overlay-transparent: rgba(0, 0, 0, 0.1) !important;
+    --lt-shadow-website-overlay: 0 0 7px 0 rgba(0, 0, 0, 0.3) !important;
+}
+html {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 1.5;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+html {
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+}
+*, ::before, ::after {
+    --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+}
+*, ::before, ::after {
+    --tw-shadow: 0 0 #0000;
+}
+*, ::before, ::after {
+    --tw-border-opacity: 1;
+    border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+}
+user agent stylesheet
+:root {
+    --arc-palette-hover: #498E677A;
+    --arc-palette-focus: #3C8257CE;
+    --arc-palette-foregroundSecondary: #28D466FF;
+    --arc-palette-background: #001E0EFF;
+    --arc-palette-minContrastColor: #136430FF;
+    --arc-palette-foregroundPrimary: #D1F6DFFF;
+    --arc-background-simple-color: #73E59CFF;
+    --arc-palette-backgroundExtra: #000F07FF;
+    --arc-palette-maxContrastColor: #D1F6DFFF;
+    --arc-palette-title: #D7E7DFFF;
+    --arc-palette-subtitle: #697B6FFF;
+    --arc-palette-cutoutColor: #136430FF;
+    --arc-palette-foregroundTertiary: #28D466FF;
+}
+*, ::before, ::after {
+    --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+}
+*, ::before, ::after {
+    --tw-shadow: 0 0 #0000;
+}
+*, ::before, ::after {
+    --tw-border-opacity: 1;
+    border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: currentColor;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+*, ::before, ::after {
+    --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+}
+*, ::before, ::after {
+    --tw-shadow: 0 0 #0000;
+}
+*, ::before, ::after {
+    --tw-border-opacity: 1;
+    border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: currentColor;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
